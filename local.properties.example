@@ -1,0 +1,15 @@
+## local.properties.example
+## Скопируй этот файл в local.properties и заполни своими ключами.
+## local.properties добавлен в .gitignore — никогда не коммить туда реальные ключи!
+
+# Android SDK путь (заполняется автоматически Android Studio)
+sdk.dir=/Users/username/Library/Android/sdk
+
+# Spotify Web API
+# Получить: https://developer.spotify.com/dashboard → Create App
+# Redirect URI в настройках приложения Spotify должен быть: com.mdfy.app://callback
+SPOTIFY_CLIENT_ID=your_spotify_client_id_here
+
+# YouTube Data API v3
+# Получить: https://console.cloud.google.com → APIs & Services → Credentials
+YOUTUBE_API_KEY=your_youtube_api_key_here

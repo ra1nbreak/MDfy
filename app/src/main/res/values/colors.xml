@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Фирменные цвета MDfy (используются в темах и Splash Screen) -->
+    <!-- Основная палитра управляется через MdfyTheme.kt в Compose -->
+    <color name="mdfy_primary">#6C63FF</color>
+    <color name="mdfy_accent">#FF6584</color>
+    <color name="background">#0F0D1A</color>
+    <color name="background_light">#FAF9FF</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Исключаем кеш и временные файлы из бэкапа -->
+    <exclude domain="cache" path="."/>
+    <!-- Исключаем скачанные треки — они большие, пусть пользователь скачает заново -->
+    <exclude domain="file" path="music/"/>
+</full-backup-content>

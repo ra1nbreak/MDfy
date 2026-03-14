@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FileProvider пути для скачивания треков -->
+<!-- Используется в TrackDownloader.kt при создании Uri для загруженных файлов -->
+<paths>
+    <!-- Внутреннее хранилище приложения (не требует разрешений на Android 10+) -->
+    <files-path name="music" path="music/" />
+    <!-- Кеш для временных файлов обложек -->
+    <cache-path name="artwork_cache" path="." />
+</paths>

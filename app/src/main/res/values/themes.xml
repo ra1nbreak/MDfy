@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовая тема — Compose управляет Material3 через MdfyTheme.kt -->
+    <style name="Theme.MDfy" parent="android:Theme.Material.NoTitleBar">
+        <!-- Цвет статус-бара задаётся программно в MdfyTheme.kt через WindowCompat -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+
+    <!-- Splash Screen тема (показывается до загрузки Compose) -->
+    <style name="Theme.MDfy.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.MDfy</item>
+    </style>
+</resources>

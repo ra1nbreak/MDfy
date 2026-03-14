@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Приложение -->
+    <string name="app_name">MDfy</string>
+    <string name="app_tagline">Музыка без границ</string>
+    <string name="app_version_prefix">Версия</string>
+
+    <!-- Навигация -->
+    <string name="nav_library">Библиотека</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_downloaded">Загруженное</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_open_menu">Открыть меню</string>
+    <string name="nav_close_menu">Закрыть меню</string>
+
+    <!-- Поиск -->
+    <string name="search_placeholder">Поиск треков, артистов…</string>
+    <string name="search_no_results">Ничего не найдено</string>
+    <string name="search_error">Ошибка поиска. Попробуйте ещё раз</string>
+    <string name="search_loading">Поиск…</string>
+
+    <!-- Плеер -->
+    <string name="player_play">Воспроизвести</string>
+    <string name="player_pause">Пауза</string>
+    <string name="player_next">Следующий</string>
+    <string name="player_previous">Предыдущий</string>
+    <string name="player_shuffle">Перемешать</string>
+    <string name="player_repeat">Повтор</string>
+    <string name="player_repeat_one">Повтор одного</string>
+    <string name="player_buffering">Буферизация…</string>
+
+    <!-- Треки -->
+    <string name="track_download">Скачать</string>
+    <string name="track_downloaded">Скачано</string>
+    <string name="track_add_favorite">В избранное</string>
+    <string name="track_remove_favorite">Убрать из избранного</string>
+    <string name="track_artwork_desc">Обложка %1$s</string>
+    <string name="track_downloading">Загрузка…</string>
+    <string name="track_download_success">Трек сохранён</string>
+    <string name="track_download_error">Ошибка загрузки</string>
+    <string name="track_unknown_artist">Неизвестный артист</string>
+    <string name="track_unknown_album">Неизвестный альбом</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_back">Назад</string>
+    <string name="settings_section_appearance">Внешний вид</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_system">Авто</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    <string name="settings_section_language">Язык</string>
+    <string name="settings_language">Язык интерфейса</string>
+    <string name="settings_language_ru">Русский</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_dialog_title">Выберите язык</string>
+    <string name="settings_language_restart_hint">Перезапустите приложение, чтобы язык применился</string>
+    <string name="settings_section_playback">Воспроизведение</string>
+    <string name="settings_audio_quality">Качество аудио</string>
+    <string name="settings_audio_quality_low">Низкое</string>
+    <string name="settings_audio_quality_medium">Среднее</string>
+    <string name="settings_audio_quality_high">Высокое</string>
+    <string name="settings_crossfade">Кроссфейд</string>
+    <string name="settings_crossfade_seconds">%1$d сек</string>
+    <string name="settings_normalise_volume">Нормализация громкости</string>
+    <string name="settings_visualizer_style">Стиль визуализатора</string>
+    <string name="settings_visualizer_bar">Столбики</string>
+    <string name="settings_visualizer_wave">Волна</string>
+    <string name="settings_visualizer_mirror">Зеркало</string>
+    <string name="settings_section_downloads">Загрузка</string>
+    <string name="settings_download_quality">Качество скачивания</string>
+    <string name="settings_download_wifi_only">Только Wi-Fi</string>
+    <string name="settings_download_wifi_only_desc">Не использовать мобильный интернет</string>
+    <string name="settings_section_account">Аккаунт</string>
+    <string name="settings_spotify_connected">Подключён как %1$s</string>
+    <string name="settings_spotify_not_connected">Не подключён</string>
+    <string name="settings_spotify_connect">Войти через Spotify</string>
+    <string name="settings_spotify_disconnect">Выйти</string>
+    <string name="settings_section_about">О приложении</string>
+    <string name="settings_version">Версия</string>
+    <string name="settings_licenses">Открытые лицензии</string>
+    <string name="settings_github">Страница на GitHub</string>
+    <string name="settings_github_desc">Исходный код, релизы и issues</string>
+    <string name="settings_support">Поддержать разработку</string>
+    <string name="settings_support_desc">Помочь развитию MDfy ❤️</string>
+
+    <!-- URL (не переводятся) — замените на свои -->
+    <string name="url_github" translatable="false">https://github.com/your-username/mdfy</string>
+    <string name="url_support" translatable="false">https://example.com/support</string>
+
+    <!-- Общие -->
+    <string name="action_cancel">Отмена</string>
+    <string name="action_ok">Готово</string>
+    <string name="action_retry">Повторить</string>
+</resources>
